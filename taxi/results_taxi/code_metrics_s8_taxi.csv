@@ -1,16 +1,15 @@
-class,Passenger:,1,0
 method,__init__,2,1
 method,set_initial_station,3,2
 method,set_destiny,4,3
-class,Environment:,1,0
+class,Passenger:,4,3
 method,__init__,2,1
 method,new_passenger,3,2
 method,start,4,3
 method,dim,5,4
-class,Agent:,1,0
+class,Environment:,5,4
 method,__init__,2,1
 method, set_state,3,2
-class,Learner:,1,0
+class,Agent:,3,2
 method,__init__,2,1
 method,__initdic__,3,2
 method,run,4,3

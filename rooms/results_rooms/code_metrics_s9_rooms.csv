@@ -1,11 +1,10 @@
-class,Env:,1,0
 method,__init__,2,1
 method,_random_state,3,2
 method,_reset,4,3
 method,do_action,5,4
 method,_is_wall,6,5
 method,_is_terminal,7,6
-class,QLearning:,1,0
+class,Env:,7,6
 method,__init__,2,1
 method,argmaxA_Q,3,2
 method,episode_step,4,3

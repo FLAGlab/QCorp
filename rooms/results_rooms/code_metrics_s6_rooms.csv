@@ -1,4 +1,3 @@
-class,Gridworld:,1,0
 method,__init__,2,1
 method,get_states,3,2
 method,get_current_state,4,3
@@ -10,7 +9,7 @@ method,is_terminal,9,8
 method,plot,10,9
 method,get_action_test,11,10
 method,plot_action,12,11
-class,Learner:,1,0
+class,Gridworld:,12,11
 method,__init__,2,1
 method,__initdic__,3,2
 method,run,4,3

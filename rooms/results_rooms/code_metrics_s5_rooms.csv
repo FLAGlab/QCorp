@@ -1,9 +1,8 @@
 method,get_area,1,1
-class,Cell:,1,0
 method,__init__,2,1
 method,get_value,3,2
 method,set_value,4,3
-class,Environment:,1,0
+class,Cell:,4,3
 method,__init__,2,1
 method,get_dimensions,3,2
 method,get_current_state,4,3
@@ -16,14 +15,14 @@ method,is_state_terminal,10,9
 method,get_board,11,10
 method,is_valid,12,11
 method,is_state_valid,13,12
-class,Learner:,1,0
+class,Environment:,13,12
 method,__init__,2,1
 method,__initdic__,3,2
 method,run_til_convergence,4,3
 method,run_episode,5,4
 method,randomAction,6,5
 method,step,7,6
-class,Agent:,1,0
+class,Learner:,7,6
 method,__init__,2,1
 method,check_policy_convergence,3,2
 method,check_values_convergence,4,3

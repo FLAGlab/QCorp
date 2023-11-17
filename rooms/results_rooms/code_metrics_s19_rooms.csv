@@ -1,4 +1,3 @@
-class,fourrooms():,1,0
 method,__init__,2,1
 method,reset,3,2
 method,get_next_state,4,3

@@ -1,5 +1,4 @@
 method,show_values,1,1
-class,Gridworld:,1,0
 method,__init__,2,1
 method,define_actions,3,2
 method,get_board,4,3
@@ -8,7 +7,7 @@ method,get_possible_actions,6,5
 method,do_action,7,6
 method,init_state,8,7
 method,is_terminal,9,8
-class,QLearning:,1,0
+class,Gridworld:,9,8
 method,__init__,2,1
 method,run_episode,3,2
 method,run_value_iteration,4,3

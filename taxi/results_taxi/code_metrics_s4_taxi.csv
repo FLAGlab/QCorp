@@ -1,15 +1,14 @@
-class,QLearning:,1,0
 method,__init__,2,1
 method,Q_to_matrix,3,2
 method,choose_action,4,3
 method,action_function,5,4
 method,run_episode,6,5
 method,qlearning,7,6
-class,TaxiAmbiente:,1,0
+class,QLearning:,7,6
 method,__init__,2,1
 method,start,3,2
 method,stop,4,3
-class,TaxiAgente:,1,0
+class,TaxiAmbiente:,4,3
 method,__init__,2,1
 method,getPossibleActions,3,2
 method,do_action,4,3

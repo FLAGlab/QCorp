@@ -1,4 +1,3 @@
-class,gridWorldGame:,1,0
 method,__init__,2,1
 method,set,3,2
 method,set_state,4,3

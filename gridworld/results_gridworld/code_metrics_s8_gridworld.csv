@@ -1,12 +1,11 @@
-class,Environment:,1,0
 method,__init__,2,1
 method,start,3,2
 method,dim,4,3
-class,Agent:,1,0
+class,Environment:,4,3
 method,__init__,2,1
 method,reset,3,2
 method, set_state,4,3
-class,Learner:,1,0
+class,Agent:,4,3
 method,__init__,2,1
 method,__initdic__,3,2
 method,run,4,3

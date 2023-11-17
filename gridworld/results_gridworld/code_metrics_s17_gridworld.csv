@@ -1,11 +1,10 @@
-class,OffPolicyControl:,1,0
 method,__init__,2,1
 method,action_epsilon_greedy,3,2
 method,update_value,4,3
 method,episode,5,4
 method,iter_episode,6,5
 method,select_polices,7,6
-class,MDPs:,1,0
+class,OffPolicyControl:,7,6
 method,__init__,2,1
 method,map_index_tuple_board,3,2
 method,reset,4,3

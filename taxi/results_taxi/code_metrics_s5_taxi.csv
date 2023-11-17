@@ -1,9 +1,8 @@
 method,get_area,1,1
-class,Cell:,1,0
 method,__init__,2,1
 method,get_value,3,2
 method,set_value,4,3
-class,TaxiEnvironment:,1,0
+class,Cell:,4,3
 method,__init__,2,1
 method,get_dimensions,3,2
 method,get_current_state,4,3
@@ -18,14 +17,14 @@ method,get_board,12,11
 method,is_valid,13,12
 method,is_state_valid,14,13
 method,reward_function,15,14
-class,Learner:,1,0
+class,TaxiEnvironment:,15,14
 method,__init__,2,1
 method,__initdic__,3,2
 method,run_til_convergence,4,3
 method,run_episode,5,4
 method,randomAction,6,5
 method,step,7,6
-class,Agent:,1,0
+class,Learner:,7,6
 method,__init__,2,1
 method,check_policy_convergence,3,2
 method,check_values_convergence,4,3
