@@ -1,0 +1,12 @@
+class,qlearning:,1,0
+method,__init__,1,1
+method,rec_find,1,2
+method,choose_action,1,3
+method,next_action,1,4
+method,get_value,1,5
+method,updateQ,1,6
+method,createAction,1,7
+method,createQvalue,1,8
+method,finalQvalueF,1,9
+method,finalpol,1,10
+method,imprimir,1,11

@@ -1,0 +1,16 @@
+class,QLearning:,1,0
+method,__init__,1,1
+method,Q_to_matrix,1,2
+method,choose_action,1,3
+method,action_function,1,4
+method,run_episode,1,5
+method,qlearning,1,6
+class,EnvironmentGridWorld:,2,0
+method,__init__,2,1
+method,crear_ejemplo_gw,2,2
+method,start,2,3
+method,end,2,4
+class,AgentGridWorld:,3,0
+method,__init__,3,1
+method,get_possible_actions,3,2
+method,do_action,3,3

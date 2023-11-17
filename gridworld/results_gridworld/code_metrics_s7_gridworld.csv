@@ -1,0 +1,16 @@
+class,QLearning():,1,0
+method,__init__,1,1
+method,print_policy,1,2
+method,run,1,3
+method,calculate_policy,1,4
+method,get_best_possible_action,1,5
+method,choose_action,1,6
+method,q_value_function,1,7
+method,converge,1,8
+class,Board():,2,0
+method,__init__,2,1
+method,set_current_state,2,2
+method,print_grid,2,3
+method,get_current_state,2,4
+method,get_posible_actions,2,5
+method,do_action,2,6

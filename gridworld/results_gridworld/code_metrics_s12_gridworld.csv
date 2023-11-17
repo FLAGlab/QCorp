@@ -1,0 +1,13 @@
+class,Gridworld:,1,0
+method,__init__,1,1
+method,get_current_state,1,2
+method,set_current_state,1,3
+method,get_posible_actions,1,4
+method,do_action,1,5
+method,reset,1,6
+method,is_terminal,1,7
+class,qLearning:,2,0
+method,__init__,2,1
+method,fill_rewards,2,2
+method,train,2,3
+method,get_path,2,4

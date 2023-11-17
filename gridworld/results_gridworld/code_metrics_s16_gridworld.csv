@@ -1,0 +1,14 @@
+class,board():,1,0
+method,__init__,1,1
+method,get_current_state,1,2
+method,get_posible_actions,1,3
+method,do_action,1,4
+method,reset,1,5
+method,is_terminal,1,6
+class,Q_LEARNING():,2,0
+method,__init__,2,1
+method,choose_action,2,2
+method,Q_max,2,3
+method,action_function,2,4
+method,episodio,2,5
+method,politica_optima,2,6
