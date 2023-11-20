@@ -1,8 +1,9 @@
-method,__init__,2,1
-method,reset,3,2
-method,get_next_state,4,3
-method,step,5,4
-method,plot_state_value_grid,6,5
-method,plot_action_value,7,6
-method,quatromatrix,8,7
-method,get_action,9,8
+method,__init__,1,54,,,
+method,reset,1,31,,,
+method,get_next_state,1,15,,,1
+method,step,1,19,,,
+method,plot_state_value_grid,1,5,,,
+method,plot_action_value,1,72,,,
+method,quatromatrix,1,29,,,
+class,fourrooms():,1,245,,,9
+method,get_action,1,19,,30.5,

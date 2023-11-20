@@ -1,22 +1,25 @@
-method,__init__,2,1
-method,start,3,2
-method,dim,4,3
-class,Environment:,4,3
-method,__init__,2,1
-method,reset,3,2
-method, set_state,4,3
-class,Agent:,4,3
-method,__init__,2,1
-method,__initdic__,3,2
-method,run,4,3
-method,calculate_policy,5,4
-method,check_convergence,6,5
-method,randomAction,7,6
-method,choose_best_action,8,7
-method,step,9,8
-method,takeAction,10,9
-method,find_max ,11,10
-method,print_table,12,11
-method,value_to_str,13,12
-method,show_results,14,13
-method,test,15,14
+method,__init__,1,12,,,,
+method,start,1,14,,,,
+class,Environment:,1,33,,,4,
+method,dim,1,6,,10.66666667,,
+method,dim,2,0,,,,
+method,__init__,2,4,,,,
+method,reset,2,6,,,,
+class,Agent:,2,20,,,5,
+method, set_state,2,9,,4.75,,
+method, set_state,3,0,,,,
+method,__init__,3,11,,,,3
+method,__initdic__,3,9,,,,
+method,run,3,33,,,,
+method,calculate_policy,3,10,,,,
+method,check_convergence,3,8,,,,
+method,randomAction,3,3,,,,
+method,choose_best_action,3,19,,,,
+method,step,3,11,,,,
+method,takeAction,3,32,,,,
+method,find_max ,3,12,,,,
+method,print_table,3,14,,,,
+method,value_to_str,3,5,,,,
+method,show_results,3,46,,,,
+class,Learner:,3,247,,,16,
+method,test,3,33,,16.4,,

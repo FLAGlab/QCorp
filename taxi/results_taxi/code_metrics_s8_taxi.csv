@@ -1,26 +1,30 @@
-method,__init__,2,1
-method,set_initial_station,3,2
-method,set_destiny,4,3
-class,Passenger:,4,3
-method,__init__,2,1
-method,new_passenger,3,2
-method,start,4,3
-method,dim,5,4
-class,Environment:,5,4
-method,__init__,2,1
-method, set_state,3,2
-class,Agent:,3,2
-method,__init__,2,1
-method,__initdic__,3,2
-method,run,4,3
-method,calculate_policy,5,4
-method,check_convergence,6,5
-method,randomAction,7,6
-method,choose_best_action,8,7
-method,step,9,8
-method,takeAction,10,9
-method,find_max ,11,10
-method,print_table,12,11
-method,value_to_str,13,12
-method,show_results,14,13
-method,test,15,14
+method,__init__,1,5,,,,,
+method,set_initial_station,1,5,,,,,
+class,Passenger:,1,17,,,,,
+method,set_destiny,1,6,,,,,
+method,set_destiny,2,0,,,,,
+method,__init__,2,11,,,,,
+method,new_passenger,2,6,,,,,4
+method,start,2,8,,,,,
+class,Environment:,2,32,,6,,,
+method,dim,2,6,6.2,,,,
+method,dim,3,0,,,,,
+method,__init__,3,4,,,,,
+class,Agent:,3,14,,4,,,
+method, set_state,3,9,4.333333333,,,,
+method, set_state,4,0,,,,,
+method,__init__,4,11,,,,,
+method,__initdic__,4,9,,,,,
+method,run,4,29,,,,,
+method,calculate_policy,4,11,,,,,
+method,check_convergence,4,9,,,,,
+method,randomAction,4,3,,,,,
+method,choose_best_action,4,19,,,,,
+method,step,4,11,,,,,
+method,takeAction,4,48,,,,,
+method,find_max ,4,12,,,,,
+method,print_table,4,21,,,,,
+method,value_to_str,4,5,,,,,
+method,show_results,4,45,,,,,
+class,Learner:,4,263,,16,,,
+method,test,4,29,17.46666667,,,,
