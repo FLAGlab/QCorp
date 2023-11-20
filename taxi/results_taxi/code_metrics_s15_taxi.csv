@@ -1,6 +1,7 @@
-method,__init__,2,1
-method,reset,3,2
-method,get_state,4,3
-method,get_reward,5,4
-method,take_action,6,5
-method,get_state_vars,7,6
+method,__init__,1,10,,,,,
+method,reset,1,10,,,,,
+method,get_state,1,7,,,,,1
+method,get_reward,1,17,,,,,
+method,take_action,1,25,,,,,
+class,Taxi:,1,76,,,7,,
+method,get_state_vars,1,6,,12.5,,,
