@@ -1,5 +1,3 @@
-# Luccas Rojas 201923052
-
 import random
 import pandas as pd
 
