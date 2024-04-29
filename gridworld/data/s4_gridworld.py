@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from pycrunch_trace.client.api import Trace
 
 class QLearning:
 
@@ -126,7 +127,7 @@ class QLearning:
             # Si la diferencia entre la recompensa media de los anteriores 100 episodios y de los últimos es pequeña, 
             # Se terminan las iteraciones
             x = np.abs(np.mean(reward_Nepisodes) - last_reward_Nepisodes)
-            print("\n", x, "\n")
+            # print("\n", x, "\n")
             if  x < 0.001 and self.epsilon < 0.1: break
              
             last_reward_Nepisodes = np.mean(reward_Nepisodes)  
@@ -217,9 +218,10 @@ class AgentGridWorld:
     def do_action(self, state, action):
         row, column = state
         possible_actions = self.get_possible_actions(state)
-        
+        tracer = Trace()
+        tracer.start('s4_gridworld_tracer')
         if action == 'exit' and state == (5,5): return 1, 'final'
-
+        tracer.stop()
         other_possible_actions = [a for a in possible_actions if a != action]
 
         # Se considera un ruido de 0.1
@@ -247,10 +249,13 @@ class AgentGridWorld:
 
         return reward, new_state
 
+
+
 env = EnvironmentGridWorld()
 agent = AgentGridWorld(env)
 learner = QLearning( env = env, agent = agent,  
                             epsilon = 0.8, alpha = 0.4, gamma = 0.9,
                             decrease_alpha = 0.01, exploration_decreasing_decay = 0.01,
-                            num_episodes_batch = 500)
+                            num_episodes_batch = 1)
 epsilons, alphas, rewards, steps = learner.qlearning()
+

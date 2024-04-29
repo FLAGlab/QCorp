@@ -1,6 +1,7 @@
 import copy
 import numpy as np
 import random
+from pycrunch_trace.client.api import Trace
 
 def get_area(current_state):
     actx=current_state[1]
@@ -102,6 +103,9 @@ class Learner:
         episodes+=1
         if episodes%(self.episode_cap/10)==0:
           self.epsilon=max(self.epsilon-0.1, 0.1)
+        
+        # quitar cuando sea necesario
+        converged = True
       print('Q-tabla previa')
       print(self.prev_qtable)
       print('Q-tabla final')
@@ -132,6 +136,8 @@ class Learner:
             self.qtable[current_tuple_state][action] = new_value
             done = self.environment.is_terminal
             steps+=1
+            # quitar cuando sea necesario
+            done = True
         self.environment.reset()
 
     def randomAction(self):
@@ -168,6 +174,8 @@ def check_policy_convergence(act,prev,dimensions):
 
 def check_values_convergence(act,prev,dimensions):
   # print('check convergence')
+  tracer = Trace()
+  tracer.start('s5_gridworld_tracer')
   converged = True
   for i in range(dimensions[0]):
     for j in range(dimensions[1]):
@@ -189,6 +197,7 @@ def check_values_convergence(act,prev,dimensions):
         break  
     if not converged:
       break
+  tracer.stop()
   return converged
 
 def create_qtable(np_form,acts):
@@ -203,6 +212,7 @@ def create_qtable(np_form,acts):
   act = np.array(list_form)
   prev = np.array(prev)
   return act,prev
+
 
 a=Cell('*',False)
 x=Cell(0,False)
@@ -256,3 +266,4 @@ agent = Agent(acts)
 learn = Learner(agent,env,gridworld_qtable,gridworld_prev_qtable,check_policy_convergence,alpha,gamma,epsilon)
 learn.run_til_convergence()
 qtable=learn.qtable
+
