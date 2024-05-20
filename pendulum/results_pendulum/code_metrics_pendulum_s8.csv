@@ -1,0 +1,3 @@
+method,create_q_net,0,32
+method,epsilon_greedy,0,10
+method,check_model,0,53

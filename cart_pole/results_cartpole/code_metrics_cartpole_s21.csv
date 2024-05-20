@@ -1,0 +1,4 @@
+method,sigmoid,0,3
+method,gen_pop,0,8
+method,crossover,0,24
+method,mutation,0,64

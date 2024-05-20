@@ -1,0 +1,14 @@
+method,__init__,1,11
+method,do_a_step_in_this_env,1,32
+method,build_model,1,15
+method,update_target_model,1,5
+method,save_weights_DQN,1,9
+method,load_weights_DQN,1,11
+method,formatting_input,1,20
+method,get_action,1,19
+method,remember,1,12
+method,train_on_batch,1,31
+method,play_game,1,33
+method,train_DQN,1,41
+class,CartpoleDQN:,1,276
+method,enjoy_game,1,36

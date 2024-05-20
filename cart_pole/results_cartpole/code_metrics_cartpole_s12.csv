@@ -1,0 +1,9 @@
+method,__init__,1,33
+method,remember,1,15
+method,act,1,17
+method,experienceReplay,1,20
+method,exportModel,1,15
+method,loadTrainedModelWeights,1,10
+method,exportGIF,1,15
+class,DeepQLearningSolver(LoggerOutputs): # Neural Net for Deep Q-Learning - reinforcement learning algo class,1,222
+method,poleBalance,1,75

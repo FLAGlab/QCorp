@@ -1,0 +1,12 @@
+method,__init__,1,11
+method,__len__,1,4
+method,add,1,13
+method,sample_batch,1,18
+method,build_summaries,1,16
+class,ReplayBuffer:,1,85
+method,build_net,1,20
+method,build_net,2,0
+method,__init__,2,61
+method,choose_action,2,15
+class,DeepQNetwork:,2,97
+method,learn_a_batch,2,20
